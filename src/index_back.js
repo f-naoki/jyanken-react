@@ -1,12 +1,7 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import PropTypes from 'prop-types'
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
-import RaisedButton from 'material-ui/RaisedButton'
-import Paper from 'material-ui/Paper';
-import { Tabs, Tab } from 'material-ui/Tabs'
-import { Table, TableBody, TableHeader, TableHeaderColumn, TableRow, TableRowColumn } from 'material-ui/Table';
-import Jyanken from './Jyanken'
+import './index.css'
 
 
 class JyankeGamePage extends Component {
